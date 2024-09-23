@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="manu"></p>
+    <script>
+        const course=["java","python","aws","sap"];
+        let size= course.length;
+        let text="<ol>";
+        for(let i=0;i<size;i++){
+            text+= "<li>" +course[i]+"</li>";
+        } 
+        text+= "<ol>";   
+        document.getElementById("manu").innerHTML=text;
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <p id="yash"></p>
+    <button id="btn">Click Me!</button>
+
+    <script>
+        let hello=" ";
+        hello =( )=>{
+        document.getElementById("yash").innerHTML +=this;
+        }
+        //The window object calls the function;
+        window.addEventListener ("load",hello);
+        //a button object calls the function;
+        document.getElementById("btn").addEventListener ("click",hello);
+    </script>
+</body>
+</html>

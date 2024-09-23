@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="kastakar.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kashtakar</title>
+    <style>
+   .fun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    animation-name: text;
+    animation-duration: 0.8s;
+    animation-iteration-count:calc(1);
+   }
+   .content{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: gold;
+    padding-bottom: 5px;
+   }
+   @keyframes text{
+    from{
+        margin-top: 300px;
+    }
+    to{
+        margin-top: 0px;
+    }
+   }
+   .flex-button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px 20px;
+     font-size: 20px;
+     background-color: rgb(216, 203, 130);
+     color: azure;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+   }
+   .flex-button:hover{
+    background-color: rgb(216, 203, 130);
+  
+  }
+   
+   
+    </style>
+  
+
+  
+    
+</head>
+
+
+<body style="background-image: url('https://images.pexels.com/photos/382166/pexels-photo-382166.jpeg');">
+    
+    <img src="C:\Users\amano\Downloads\WhatsApp Image 2024-06-20 at 11.55.29 AM.jpeg" alt="logo" width="100px" height="100px">
+    <div>
+        <h1>Kasthkar Dairy</h1>
+    </div>
+  
+    <header>
+        <nav>
+            <a href="Home.html">HOME</a>
+            <a href="Aboutus.html">ABOUTUS</a>
+           
+            <a href="Product.html">PRODUCT</a>
+            <a href="contact.html">CONTACTUS</a>
+           
+        </nav>
+    </header>
+
+
+
+    <div class="fun">
+    <div class="content">
+        <button class="flex-button" onclick="navigate()">Know More</button>
+    </div>
+    </div>
+    <script>
+        function navigate() {
+            window.location.href="Aboutus.html";
+        }
+    </script>
+
+
+    
+</body>
+</html>
